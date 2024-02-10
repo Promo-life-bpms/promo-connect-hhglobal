@@ -205,61 +205,9 @@
 
                                     <div class="grid grid-cols-3 gap-4">
                                         <select id="logos" name="logos" class=" mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="width: 210px;">
-                                            <option value="ADANZA60_BLANCO.png">ADANZA60 BLANCO</option>
-                                            <option value="ADANZA60_NEGRO.png">ADANZA60 NEGRO</option>
-                                            <option value="Andanza120_Negro.png">Andanza120 Negro</option>
-                                            <option value="Andnaza120_Blanco.png">Andnaza120 Blanco</option>
-                                            <option value="BIOLAF_BLANCO.png">BIOLAF BLANCO</option>
-                                            <option value="BIOLAF_NEGRO.png">BIOLAF NEGRO</option>
-                                            <option value="COLSULIX_BLANCO.png">COLSULIX BLANCO</option>
-                                            <option value="COLSULIX_NEGRO.png">COLSULIX NEGRO</option>
-                                            <option value="CRONOCAPS_BLANCO.png">CRONOCAPS BLANCO</option>
-                                            <option value="CRONOCPAS_NEGRO.png">CRONOCPAS NEGRO</option>
-                                            <option value="FEROCINE_BLANCO.png">FEROCINE BLANCO</option>
-                                            <option value="FEROCINE_NEGRO.png">FEROCINE NEGRO</option>
-                                            <option value="HISTIOFIL2000_BLANCO.png">HISTIOFIL2000 BLANCO</option>
-                                            <option value="HISTIOFIL2000_NEGRO.png">HISTIOFIL2000 NEGRO</option>
-                                            <option value="HISTIOFIL4000_BLANCO.png">HISTIOFIL4000 BLANCO</option>
-                                            <option value="HISTIOFIL4000_NEGRO.png">HISTIOFIL4000 NEGRO</option>
-                                            <option value="HYDRON_BLANCO.png">HYDRON BLANCO</option>
-                                            <option value="HYDRON_NEGRO.png">HYDRON NEGRO</option>
-                                            <option value="IFORD_BLANCO.png">IFORD BLANCO</option>
-                                            <option value="IFORD_NEGRO.png">IFORD NEGRO</option>
-                                            <option value="LACIDOFIL_BLANCO.png">LACIDOFIL BLANCO</option>
-                                            <option value="LACIDOFIL_NEGRO.png">LACIDOFIL NEGRO</option>
-                                            <option value="LAIF_BLANCO.png">LAIF BLANCO</option>
-                                            <option value="LAIF_NEGRO.png">LAIF NEGRO</option>
-                                            <option value="LUDLEV_BLANCO.png">LUDLEV BLANCO</option>
-                                            <option value="LUDLEV_NEGRO.png">LUDLEV NEGRO</option>
-                                            <option value="MEDIBTIN_NEGRO.png">MEDIBTIN NEGRO</option>
-                                            <option value="MEDIBUTINTAB_BLANCO.png">MEDIBUTINTAB BLANCO</option>
-                                            <option value="MEDIBUTINTAB_NEGRO.png">MEDIBUTINTAB NEGRO</option>
-                                            <option value="MEDIBUTIN_BLANCO.png">MEDIBUTIN BLANCO</option>
-                                            <option value="MELATONINA_BLANCO.png">MELATONINA BLANCO</option>
-                                            <option value="MELATONINA_NEGRO.png">MELATONINA NEGRO</option>
-                                            <option value="OXATHOS_BLANCO.png">OXATHOS BLANCO</option>
-                                            <option value="OXATHOS_NEGRO.png">OXATHOS NEGRO</option>
-                                            <option value="PYLOPAC_BLANCO_1.png">PYLOPAC BLANCO_1</option>
-                                            <option value="PYLOPAC_NEGRO_1.png">PYLOPAC NEGRO_1</option>
-                                            <option value="SENEX_BLANCO.png">SENEX BLANCO</option>
-                                            <option value="SENEX_NEGRO.png">SENEX NEGRO</option>
-                                            <option value="SERONEXLP_BLANCO.png">SERONEXLP BLANCO</option>
-                                            <option value="SERONEXLP_NEGRO.png">SERONEXLP NEGRO</option>
-                                            <option value="SERONEX_BLANCO.png">SERONEX BLANCO</option>
-                                            <option value="SERONEX_NEGRO.png">SERONEX NEGRO</option>
-                                            <option value="SUBZ3_BLANCO.png">SUBZ3 BLANCO</option>
-                                            <option value="SUBZ3_NEGRO.png">SUBZ3 NEGRO</option>
-                                            <option value="SUBZ5_BLANCO.png">SUBZ5 BLANCO</option>
-                                            <option value="SUBZ5_NEGRO.png">SUBZ5 NEGRO</option>
-                                            <option value="SUBZ5_NEGRO_1.png">SUBZ5 NEGRO_1</option>
-                                            <option value="TEMPOLIB_BLANCO.png">TEMPOLIB BLANCO</option>
-                                            <option value="TEMPOLIB_NEGRO.png">TEMPOLIB NEGRO</option>
-                                            <option value="TEROCAPS_BLANCO.png">TEROCAPS BLANCO</option>
-                                            <option value="TEROCAPS_NEGRO.png">TEROCAPS NEGRO</option>
-                                            <option value="TRIYOTEX10_BLANCO.png">TRIYOTEX10 BLANCO</option>
-                                            <option value="TRIYOTEX10_NEGRO.png">TRIYOTEX10 NEGRO</option>
-                                            <option value="TRIYOTEX5_BLANCO.png">TRIYOTEX5 BLANCO</option>
-                                            <option value="TRIYOTEX5_NEGRO.png">TRIYOTEX5 NEGRO</option>
+                                            <option value="HHGlobal_Logo.png">HHGLOBAL BLANCO</option>
+                                            <option value="HHGlobal_LogoBlanco.png">HHGLOBAL NEGRO</option>
+                                           
                                         </select>
                                     </div>
                                     
@@ -436,17 +384,8 @@
         var productID = "{{ $product->id }}";
 
         /* Logos */
-        var logo1 = "{{asset('img/Logo_Biolaif.png')}}";
-        var logo2 = "{{asset('img/Logo_Cronocaps.png')}}";
-        var logo3 = "{{asset('img/Logo_Ferocine.png')}}";
-        var logo4 = "{{asset('img/Logo_Histofil.png')}}";
-        var logo5 = "{{asset('img/Logo_Ifor.png')}}";
-        var logo6 = "{{asset('img/Logo_Neomicol1.png')}}";
-        var logo7 = "{{asset('img/Logo_Neomicol2.png')}}";
-        var logo8 = "{{asset('img/Logo_Neomicol3.png')}}";
-        var logo9 = "{{asset('img/Logo_Prepram.png')}}";
-        var logo10 = "{{asset('img/Logo_Sub-Z.png')}}";
-        var logo11 = "{{asset('img/Logo_Triyotex.png')}}";
+        var logo1 = "{{asset('img/HHGlobal_Logo.png')}}";
+        var logo2 = "{{asset('img/HHGlobal_LogoBlanco.png')}}";
 
         if(imageURL.startsWith("https://catalogodeproductos.promolife.lat/")){
             imageURL = imageURL.slice(41);
@@ -454,15 +393,7 @@
         /* Identificadores */
         var selectedLogo1 = document.getElementById("logo1");
         var selectedLogo2 = document.getElementById("logo2");
-        var selectedLogo3 = document.getElementById("logo3");
-        var selectedLogo4 = document.getElementById("logo4");
-        var selectedLogo5 = document.getElementById("logo5");
-        var selectedLogo6 = document.getElementById("logo6");
-        var selectedLogo7 = document.getElementById("logo7");
-        var selectedLogo8 = document.getElementById("logo8");
-        var selectedLogo9 = document.getElementById("logo9");
-        var selectedLogo10 = document.getElementById("logo10");
-        var selectedLogo11 = document.getElementById("logo11");
+      
 
         var logoSelect = document.getElementById("logos");
         
@@ -479,7 +410,7 @@
                 canvas.remove(selectedImageLogo);
 
                 // Construir la URL de la imagen dinámicamente
-                var logo = `{{asset('img/logos/${selectedLogo}')}}`;
+                var logo = `{{asset('img/${selectedLogo}')}}`;
                 if (selectedImageLogo) {
                     canvas.remove(selectedImageLogo);
                 }

@@ -3,9 +3,9 @@
     <nav class="w-full flex justify-between py-2 px-4 md:px-12 items-center flex-wrap bg-primary" >
         <div class="w-full md:w-1/12 mb-2 md:mb-0">
             <a href="{{ route('index') }}">
-                <img src="{{asset('img/logo-white.png')}}"
+                <img src="{{asset('img/HHGlobal_LogoBlanco.png')}}"
                     style="object-fit: cover;"
-                    alt="logo" class="w-24 p-2 ">
+                    alt="logo" class="w-30 p-2 ">
             </a>
         </div>
        
