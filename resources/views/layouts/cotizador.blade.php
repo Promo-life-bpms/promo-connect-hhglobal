@@ -12,7 +12,7 @@
     <title>
         @hasSection('title')
             @yield('title') |
-        @endif {{ config('app.name', 'Medix') }}
+        @endif {{ config('app.name', 'hhglobal') }}
     </title>
 
     <!-- Fonts -->

@@ -2,44 +2,38 @@
 
 @section('content')
 
-    
-    <img class="w-30 pl-10 pt-10" src="{{ asset('img/logo-color.png')}}"
-        style="object-fit: contain;"
-        class="max-w-full max-full" >
+<div class="flex justify-center items-center w-full h-full">
+    <div class="p-3 mt-auto rounded overflow-hidden shadow-2xl" style="width: 400px; margin-top:10%;">
 
-<div class="flex justify-center items-center w-full">
-    
-
-        <div class="p-3 rounded overflow-hidden shadow-2xl" style='width:400px;'>
-            <div class="separator mt-8"></div>
+            <img src="{{ asset('img/HHGlobal_Logo.png')}}" alt="" >
             <div class="flex items-center justify-center">
-                <h1 class="text-4xl font-bold">
-                    Bienvenido
+                <h1 class="text-2xl font-bold text-primary">
+                    BIENVENIDO
                 </h1>
             </div>
 
             <form class="w-full p-4" method="POST" action="{{ route('login') }}">
                 @csrf
                 
-                <label class="block text-gray-500 font-bold text-left mb-1 md:mb-0 pr-4 pb-2" for="inline-full-name">
-                    Correo
+                <label class="block text-gray-500  text-left mb-1 md:mb-0 pr-4 pb-2" for="inline-full-name">
+                    Correo Electronico
                 </label>
                 
                 <div class="w-full">
                     <input type="email" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:bg-white focus:border-[#662D91]" name="email" value="{{ old('email') }}" placeholder="Ingrese su correo" required autocomplete="email" autofocus>
                     @error('email')
-                    <span class="invalid-feedback" role="alert">
+                    <span class="invalid-feedback " role="alert">
                         <p class="text-sm text-red-700 font-semibold">{{ $message }}</p>
                     </span>
                     @enderror
                 </div>
                 
                 <div class="separador mt-4"></div>
-                <label class="block pb-2 text-gray-500 font-bold text-left mb-1 md:mb-0 pr-4" for="inline-password">
+                <label class="block pb-2 text-gray-500 text-left mb-1 md:mb-0 pr-4" for="inline-password">
                     Contraseña
                 </label>
                 
-                <div class="w-full mb-4">
+                <div class="w-full mb-2">
                     <input id="password" type="password" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:bg-white focus:border-[#662D91]" placeholder="Ingrese su contraseña" name="password" required autocomplete="current-password">
                     @error('password')
                     <span class="invalid-feedback" role="alert">
