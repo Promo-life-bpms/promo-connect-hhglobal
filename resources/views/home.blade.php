@@ -56,12 +56,8 @@
 
     </div>
 
-    <div class="flex justify-center items-center">
-        <a href="{{ asset('img/MEDIX.mp4') }}"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"  style="z-index:30; position:absolute; margin-top:-160px;" target="__blank">ver video</a>
-    </div>
-
     <div class="container mx-auto max-w-7xl">
-        <div class="w-full bg-primary">
+        <div class="w-full bg-stone-500">
             <div class="container mx-auto max-w-7xl py-1">
                 <div class="flex justify-center">
                     <span class="text-center text-white">PRODUCTOS MÁS VENDIDOS
@@ -80,7 +76,7 @@
         </div>
         <div class="w-full">
             <div class="container mx-auto max-w-7xl py-1">
-                <div class="flex justify-center bg-primary">
+                <div class="flex justify-center bg-stone-500">
                     <span class="text-center text-white p-1">CATEGORÍAS
                     </span>
                 </div>
@@ -122,9 +118,9 @@
                 @foreach ($latestCategorias as $cat)
                   
                     <div
-                        class="border border-primary  bg-slate-50 hover:bg-slate-100 transition-colors rounded-full shadow-lg w-40 h-40 flex justify-center items-center text-center cursor-pointer mx-4 my-2">
+                        class="border border-primary  bg-stone-100 hover:bg-slate-100 transition-colors rounded-full shadow-lg w-40 h-40 flex justify-center items-center text-center cursor-pointer mx-4 my-2">
                         <a href="{{ route('categoryfilter', ['category' => $cat->id]) }}"
-                            class="bg-[#161B2F] font-bold text-white uppercase text-sm px-3 py-2 w-4/5">
+                            class="bg-black font-bold text-white uppercase text-sm px-3 py-2 w-4/5">
                             {{ $cat->family }}
                         </a>
                     </div>
@@ -133,7 +129,7 @@
 
             </div>
         </div>
-        <div class="w-full bg-primary">
+        <div class="w-full bg-stone-500">
             <div class="container mx-auto max-w-7xl py-1">
                 <div class="flex justify-center">
                     <span class="text-center text-white">MÁS PRODUCTOS

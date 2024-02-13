@@ -25,7 +25,7 @@
         </div>
         <div id="accordion-collapse" data-accordion="collapse" wire:ignore>
             <h2 id="accordion-collapse-heading-3">
-                <button type="button" class="w-full bg-primary text-white justify-center flex py-1"
+                <button type="button" class="w-full bg-stone-500 text-white justify-center flex py-1"
                     data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
                     aria-controls="accordion-collapse-body-3">
                     <span>FILTRO DE BUSQUEDA</span>

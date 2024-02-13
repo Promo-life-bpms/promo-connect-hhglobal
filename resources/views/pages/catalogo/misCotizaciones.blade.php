@@ -55,7 +55,7 @@
         <div class="w-full">
             <table class="table-auto">
                 <thead>
-                    <tr class="bg-blue-900 text-white">
+                    <tr class="bg-stone-500 text-white">
                         <th style="width:5%;">Cotizacion</th>
                         <th style="width:5%;">Logo</th>
                         <th style="width:10%;">Producto</th>

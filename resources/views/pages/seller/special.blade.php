@@ -82,7 +82,7 @@
 
                 <table  style="width:90%;">
 
-                    <thead class="bg-blue-900 text-white">
+                    <thead class="bg-stone-500 text-white">
                         <tr>
                             <th style="width: 5%;" class="p-4">#</th>
                             <th style="width: 35%;">Descripción</th>

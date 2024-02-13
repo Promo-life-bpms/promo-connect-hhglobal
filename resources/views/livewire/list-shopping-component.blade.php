@@ -4,7 +4,7 @@
     <div class="w-full px-20 mt-10">
         <table class="w-full table-auto">
             <thead>
-              <tr class="bg-blue-900 text-white">
+              <tr class="bg-stone-500 text-white">
                 <th style="width: 10%;" class="p-2">#</th>
                 <th style="width: 20%;">Poducto</th>
                 <th style="width: 25%;">Descripción</th>

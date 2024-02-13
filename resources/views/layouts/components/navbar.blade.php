@@ -1,6 +1,6 @@
 <div  class="fixed top-0 left-0 right-0 z-50">
     
-    <nav class="w-full flex justify-between py-2 px-4 md:px-12 items-center flex-wrap bg-primary" >
+    <nav class="w-full flex justify-between py-2 px-4 md:px-12 items-center flex-wrap bg-black" >
         <div class="w-full md:w-1/12 mb-2 md:mb-0">
             <a href="{{ route('index') }}">
                 <img src="{{asset('img/HHGlobal_LogoBlanco.png')}}"
@@ -306,7 +306,7 @@
 
                     <!-- Dropdown menu -->
                     <div id="dropdown"
-                        class="z-40 hidden bg-primary divide-y divide-gray-100 rounded-lg shadow w-44 text-white hover:text-white">
+                        class="z-40 hidden bg-black divide-y divide-gray-100 rounded-lg shadow w-44 text-white hover:text-white">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                             @role('buyers-manager')
                                 <li>

@@ -34,7 +34,7 @@
         <div class="flex-grow w-full"  style='margin-top:30px;'>
             @yield('content')
         </div>
-        <div class="py-5 w-full bg-primary">
+        <div class="py-5 w-full bg-black">
             <div class="w-full flex flex-col sm:flex-row justify-between items-center text-primary mt-4">
                 <div class="mb-4 sm:mb-0">
                     <p class="ml-4 mr-4 text-xl font-bold text-white">CONTACTO: </p>
