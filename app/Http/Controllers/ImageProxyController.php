@@ -13,18 +13,16 @@ class ImageProxyController extends Controller
             $imageUrl = $request->input('url');
     
             if (filter_var($imageUrl, FILTER_VALIDATE_URL)) {
-                $imageContents = file_get_contents($imageUrl);
+                $ch = curl_init($imageUrl);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $imageContents = curl_exec($ch);
+                $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+                curl_close($ch);
     
-                // Utiliza finfo_open() para obtener el tipo MIME
-                $finfo = finfo_open(FILEINFO_MIME_TYPE);
-                $mimeType = finfo_buffer($finfo, $imageContents);
-                finfo_close($finfo);
-    
-                return response($imageContents)->header('Content-Type', $mimeType);
+                return response($imageContents)->header('Content-Type', $contentType);
             }
         } catch (\Exception $e) {
-           
-            return  $e;
+            return $e;
         }
     }
 }

@@ -564,26 +564,26 @@ class CotizadorController extends Controller
             $createQuoteTechniques->save();
         }
 
-        $recipients = [
+       /*  $recipients = [
             'daniel@trademarket.com.mx',
             'ugamboa@medix.com.mx',
             'jsantos@medix.com.mx',
         ];
-
+ */
         $date = Carbon::now()->format("d/m/Y");
 
     
-        Notification::route('mail', [
+       /*  Notification::route('mail', [
             'daniel@trademarket.com.mx',
             'ugamboa@medix.com.mx',
             'jsantos@medix.com.mx',
-        ])->notify(new SendEmailCotizationNotification($date, $quote));
+        ])->notify(new SendEmailCotizationNotification($date, $quote)); */
 
         $user = auth()->user(); 
         $userEmail = $user->email; 
 
-        Notification::route('mail', $userEmail)
-            ->notify(new SendEmailCotizationNotification($date, $quote));
+       /*  Notification::route('mail', $userEmail)
+            ->notify(new SendEmailCotizationNotification($date, $quote)); */
             
         return redirect()->back()->with('message', 'Este es tu mensaje de sesión.');
 
