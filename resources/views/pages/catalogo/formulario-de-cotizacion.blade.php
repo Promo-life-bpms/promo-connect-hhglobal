@@ -205,8 +205,8 @@
 
                                     <div class="grid grid-cols-3 gap-4">
                                         <select id="logos" name="logos" class=" mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="width: 210px;">
-                                            <option value="HHGlobal_Logo.png">HHGLOBAL BLANCO</option>
-                                            <option value="HHGlobal_LogoBlanco.png">HHGLOBAL NEGRO</option>
+                                            <option value="HHGlobal_Logo.png">HHGLOBAL NEGRO</option>
+                                            <option value="HHGlobal_LogoBlanco.png">HHGLOBAL BLANCO</option>
                                            
                                         </select>
                                     </div>
