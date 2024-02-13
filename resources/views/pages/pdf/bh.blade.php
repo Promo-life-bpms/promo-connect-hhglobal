@@ -23,7 +23,7 @@
         {{-- <img src="quotesheet/bh/triangulos.png" alt="" srcset="" class="fondo-head"> --}}
         <table class="head content">
             <tr>
-                <td style="text-align: left; width:20%"><img src="quotesheet/bh/logo.png" class="logo"></td>
+                <td style="text-align: left; width:10%"><img src="quotesheet/bh/logo.png" class="logo"></td>
                 <td style="text-align: center; width:65%">Presupuesto | Compañia</td>
                 <td></td>
             </tr>

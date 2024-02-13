@@ -20,35 +20,25 @@
         @endphp
     @endguest
     <header>
-        <img src="quotesheet/pz/fondo-azul-superior.png" alt="" srcset="" class="fondo-head">
+        {{-- <img src="quotesheet/bh/triangulos.png" alt="" srcset="" class="fondo-head"> --}}
         <table class="head content">
             <tr>
-                <td rowspan="3"><img src="quotesheet/pz/logo.jpg" class="logo"></td>
-                <td colspan="6" class="company">PROMO ZALE S.A. DE C.V.</td>
-            </tr>
-            <tr>
-                <td style="text-align: left;" colspan="6" class="company-quote">Cotizacion</td>
+                <td style="text-align: left; width:10%"><img src="quotesheet/bh/logo.png" class="logo"></td>
+                <td style="text-align: center; width:65%">Presupuesto | Compañia</td>
+                <td></td>
             </tr>
         </table>
+        <p class="company-name content">BH Trade Market S.A. de C.V.</p>
     </header>
     <footer>
-        <table
-            style="magin-bottom: 0mm; position: absolute; bottom: 22mm; z-index: 20; width: 100%; margin-left: -10px;">
+        <table class="footer content">
             <tr>
-                <td>
-                    <img src="quotesheet/pz/fondo-azul-inferior.png" />
-                </td>
+                <td colspan="3" style="text-align: center">www.trademarket.com.mx</td>
             </tr>
-        </table>
-
-        <table style="magin-bottom: 0mm; position: absolute; bottom: 60px; z-index:100;" class="content">
             <tr>
-                <td>
-                    <p style="font-size: 12px; margin-left:3px; color:#fff;">Pagina <span class="pagenum"></span> </p>
-                    <br>
-                    <p style="font-size: 12px; margin-left:3px; color:#fff; text-transform: uppercase">San Andr&#233;s
-                        Atoto 155, San Est&#233;ban, Naucalpan, Edo. Méx. C.P. 53550 <br></p>
-                </td>
+                <td colspan="3" style="text-align: center; font-size: 10px;">San Andrés Atoto 155A Naucalpan de
+                    Juárez, Méx. C.P. 53550
+                    Tel. +52(55) 5290 9100</td>
             </tr>
         </table>
     </footer>

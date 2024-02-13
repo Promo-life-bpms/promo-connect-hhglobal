@@ -29,17 +29,31 @@
     </style> --}}
 
     <header>
-        <img src="quotesheet/pz/fondo-azul-superior.png" alt="" srcset="" class="fondo-head">
+        {{-- <img src="quotesheet/bh/triangulos.png" alt="" srcset="" class="fondo-head"> --}}
         <table class="head content">
             <tr>
-                <td rowspan="3"><img src="quotesheet/pz/logo.jpg" class="logo"></td>
-                <td colspan="6" class="company">PROMO ZALE S.A. DE C.V.</td>
-            </tr>
-            <tr>
-                <td style="text-align: left;" colspan="6" class="company-quote">Cotizacion</td>
+                <td style="text-align: left; width:10%"><img src="quotesheet/bh/logo.png" class="logo"></td>
+                <td style="text-align: center; width:65%">Presupuesto | Compañia</td>
+                <td></td>
             </tr>
         </table>
+        <p class="company-name content">BH Trade Market S.A. de C.V.</p>
     </header>
+    <footer>
+        <table class="footer content">
+            <tr>
+                <td colspan="3" style="text-align: center">www.trademarket.com.mx</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 10px;">San Andrés Atoto 155A Naucalpan de
+                    Juárez, Méx. C.P. 53550
+                    Tel. +52(55) 5290 9100</td>
+            </tr>
+        </table>
+        <div style="text-align: right">
+            <p class="content">Pagina <span class="pagenum"></span></p>
+        </div>
+    </footer>
 
     {{-- <img src="quotesheet/bh/triangulos.png" alt="" srcset="" class="fondo-head"> --}}
 
